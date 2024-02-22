@@ -17,7 +17,7 @@ int	ft_atoi(char *str)
 	int	sign;
 	int	result;
 
-	while (*str == ' ' || (*str >= '\t' && *str <= '\r')) /
+	while (*str == ' ' || (*str >= '\t' && *str <= '\r')) 
 	{
 		str++;
 	}
@@ -38,11 +38,11 @@ int	ft_atoi(char *str)
 	}
 	return (result * sign);
 }
-// -32445a
+
 // int	main(int argc, char *argv[])
 // {
 // 	int	result;
-3
+//
 // 	if (argc != 2)
 // 	{
 // 		printf("Usage: %s <string>\n", argv[0]);
